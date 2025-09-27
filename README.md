@@ -66,7 +66,6 @@
             <div class="hidden md:flex space-x-6 items-center">
                 <a href="#problema" class="text-gray-600 hover:text-emerald-600 transition duration-300">El Problema</a>
                 <a href="#solucion" class="text-gray-600 hover:text-emerald-600 transition duration-300">La Solución</a>
-                <!-- **CAMBIO**: Enlace al Dashboard externo -->
                 <a href="https://hydro-impact-showcase.lovable.app" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-emerald-600 transition duration-300">Dashboard</a>
                 <a href="#productos" class="text-gray-600 hover:text-emerald-600 transition duration-300">Productos</a>
                 <a href="#faq" class="text-gray-600 hover:text-emerald-600 transition duration-300">FAQ</a>
@@ -81,7 +80,6 @@
         <div id="mobile-menu" class="hidden md:hidden">
             <a href="#problema" class="block py-2 px-4 text-sm hover:bg-gray-100">El Problema</a>
             <a href="#solucion" class="block py-2 px-4 text-sm hover:bg-gray-100">La Solución</a>
-            <!-- **CAMBIO**: Enlace al Dashboard externo en menú móvil -->
             <a href="https://hydro-impact-showcase.lovable.app" target="_blank" rel="noopener noreferrer" class="block py-2 px-4 text-sm hover:bg-gray-100">Dashboard</a>
             <a href="#productos" class="block py-2 px-4 text-sm hover:bg-gray-100">Productos</a>
              <a href="#faq" class="block py-2 px-4 text-sm hover:bg-gray-100">FAQ</a>
@@ -104,9 +102,7 @@
                         Conoce Evida Hydrogel, el poliacrilato de potasio que retiene hasta 500 veces su peso en agua, revolucionando la agricultura y garantizando el futuro de tus cultivos.
                     </p>
                     <div class="mt-8 flex justify-center md:justify-start space-x-4">
-                        <!-- **CAMBIO**: Enlace al Lovable de la tienda -->
                         <a href="https://poli-flow-shop.lovable.app" target="_blank" rel="noopener noreferrer" class="bg-emerald-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-emerald-700 transition duration-300 shadow-xl transform hover:scale-105">Comprar Ahora</a>
-                        <!-- **CAMBIO**: Enlace al Lovable del dashboard -->
                         <a href="https://hydro-impact-showcase.lovable.app" target="_blank" rel="noopener noreferrer" class="bg-gray-200 text-gray-800 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-300 transition duration-300">Ver Dashboard</a>
                     </div>
                 </div>
@@ -182,8 +178,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- **SECCIÓN ELIMINADA**: El dashboard que estaba aquí fue removido. -->
         
         <!-- Sección de Productos -->
         <section id="productos" class="py-20 bg-white fade-in-section">
@@ -239,6 +233,8 @@
                  <div class="text-center mb-12">
                     <h2 class="text-4xl font-bold text-gray-900">Preguntas Frecuentes</h2>
                     <p class="mt-4 text-lg text-gray-600">Resolvemos tus dudas más comunes.</p>
+                    <!-- **NUEVO CAMBIO**: Enlace al chatbot integrado en el texto -->
+                    <p class="mt-4 text-base text-gray-600">¿No encuentras lo que buscas? <a href="https://t.me/Immss_evidabot" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-semibold hover:underline">Puedes resolver tus dudas aquí</a> con nuestro asistente virtual.</p>
                 </div>
                 <div class="space-y-4">
                     <!-- Pregunta FAQ 1 -->
@@ -358,8 +354,9 @@
         </div>
     </footer>
 
-    <!-- **NUEVO**: Botón Flotante para el Chatbot de Telegram -->
-    <a href="https://web.telegram.org/k/#@Immss_evidabot" target="_blank" rel="noopener noreferrer" title="Chatea con nosotros" class="fixed bottom-6 right-6 bg-emerald-600 text-white p-4 rounded-full shadow-lg hover:bg-emerald-700 transition-transform transform hover:scale-110 z-50">
+    <!-- Botón Flotante para el Chatbot de Telegram -->
+    <a href="https://t.me/Immss_evidabot" target="_blank" rel="noopener noreferrer" title="Chatea con nosotros en Telegram" 
+       class="fixed bottom-8 right-8 bg-blue-500 text-white p-5 rounded-full shadow-2xl hover:bg-blue-600 transition-transform transform hover:scale-110 z-50">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
             <path d="M9.78 18.65l.28-4.23l7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3L3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.58c-.28 1.13-1.04 1.4-1.74.88l-4.98-3.9z"></path>
         </svg>
@@ -420,4 +417,3 @@
 
 </body>
 </html>
-
